@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    padding-left:60px;
+    background-color: #1F2937;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.logo {
+
+}
+
+.rightlinks {
+    display: flex;
+    gap: 15px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    
 }
