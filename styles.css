@@ -24,10 +24,16 @@
     font-weight: bold;
 }
 
-.rightlinks {
+.rightlinks, .secondarytext {
     display: flex;
     gap: 15px;
     padding-right: 60px;
     flex-wrap: wrap;
     
+}
+
+.heroheader {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
