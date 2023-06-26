@@ -30,10 +30,13 @@
     padding-right: 60px;
     flex-wrap: wrap;
     
+    
 }
 
 .herocontainer {
     display: flex;
+    
+    
 }
 
 .heroheader {
@@ -41,6 +44,23 @@
     font-weight: 800;
     color: #F9FAF8;
 }
+ 
+/* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
+.heroplaceholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
+.heroplaceholder > h4 {
+    align-self: center;
+    
+    text-align: center;
+    width: 400px;
+}
+/* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
 
 
 
