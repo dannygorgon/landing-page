@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.header {
+.headernav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,15 +27,21 @@
 .rightlinks, .secondarytext {
     display: flex;
     gap: 15px;
-    padding-right: 60px;
     flex-wrap: wrap;
+   
     
+}
+
+.rightlinks {
     
 }
 
 .herocontainer {
     display: flex;
-    
+    background-color: blue;
+    padding: 15px;
+    padding-left:60px;
+    justify-content: space-between;
     
 }
 
@@ -47,18 +53,17 @@
  
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
 .heroplaceholder {
-    background-color: #eee;
+    background-color: #747474;
     display: flex;
-    height: 180px;
-    margin: 5px;
-    width: 260px;
+    justify-content: center;
+    
 }
 
 .heroplaceholder > h4 {
     align-self: center;
     
     text-align: center;
-    width: 400px;
+    
 }
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
 
