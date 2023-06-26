@@ -32,11 +32,17 @@
     
 }
 
+.herocontainer {
+    display: flex;
+}
+
 .heroheader {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
+
 
 button {
     
