@@ -168,20 +168,24 @@ h5 {
 
 .c2a {
     display: flex;
-    flex-direction: column;
+    
     background-color: #3882f6;
     border-radius: 10px;
     padding: 4% 4% 4% 4%;
     margin: 10%;
     text-align: start;
-    justify-items: center;
+    justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
     
 }
 
 .c2atext {
     display: flex;
-  
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 95%;
+    word-wrap: normal;
     
     
 }
@@ -202,17 +206,29 @@ h5 {
     justify-content: flex-end;
     align-self: flex-end;
     display: flex;
+    padding-left: 15%;
 }
     
+.button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    padding: 1% 6%;
+    border-radius: 5px;
+    border-style: none;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: large;
+  }
 
 .button2 {
     
     background-color: #3882f6;
-    
+    margin: 10px;
+    padding: 15px 50px;
     border-radius: 5px;
     color: #f9faf8;
     font-weight: 900;
-    font-size: large;
+    font-size: medium;
     border: #e5e7eb solid 1px;
   }
 
