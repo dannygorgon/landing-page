@@ -5,8 +5,6 @@
   padding: 0;
 }
 
-
-
 .headernav {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +12,7 @@
   gap: 15px;
   padding: 15px;
   padding-left: 15%;
-  padding-right:  15%;
+  padding-right: 15%;
   background-color: #1f2937;
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -28,22 +26,22 @@
 }
 
 h1 {
-    font-size: 3em;
-    font-weight: 800;
-    color: #f9faf8;
-    word-break:break-word;
-    max-width: 300px;
+  font-size: 3em;
+  font-weight: 800;
+  color: #f9faf8;
+  word-break: break-word;
+  max-width: 300px;
 }
 
 h2 {
-    font-size: 1.125em;
-    color: #e5e7eb;
+  font-size: 1.125em;
+  color: #e5e7eb;
 }
 
 h3 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #1F2937;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
 }
 
 .rightlinks,
@@ -54,36 +52,34 @@ h3 {
 }
 
 .boxcontainer {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .square {
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 1;    
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
 }
 
 .box {
-    border: #3882F6 solid 4px;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    
+  border: #3882f6 solid 4px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .caption {
-    text-align: center;
-    font-size: 12px;
-    word-wrap: break-word;
-   
-    max-width: 110px;
+  text-align: center;
+  font-size: 12px;
+  word-wrap: break-word;
+
+  max-width: 110px;
 }
-  
 
 .secondarytext {
   display: flex;
@@ -97,7 +93,7 @@ h3 {
   background-color: #1f2937;
   padding: 15px;
   padding-left: 15%;
-  padding-right:  15%;
+  padding-right: 15%;
   justify-content: space-between;
   gap: 10px;
 }
@@ -109,10 +105,7 @@ h3 {
 }
 
 .heroheader {
- 
   flex-shrink: 1;
-  
-
 }
 
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
@@ -133,14 +126,13 @@ h3 {
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
 
 .infoheader {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 button {
   margin-top: 10px;
-  background-color: #3882F6;
+  background-color: #3882f6;
   padding: 1% 6%;
   border-radius: 5px;
   border-style: none;
