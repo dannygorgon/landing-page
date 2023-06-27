@@ -19,6 +19,16 @@
   color: #e5e7eb;
 }
 
+.footer {
+    background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: small;
+    font-weight: 100;
+    font-style: normal;
+    padding: 3%;
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
