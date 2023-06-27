@@ -44,6 +44,13 @@ h3 {
   color: #1f2937;
 }
 
+h5 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
 .rightlinks,
 .secondarytext {
   display: flex;
@@ -128,6 +135,25 @@ h3 {
 .infoheader {
   display: flex;
   justify-content: center;
+}
+
+.quoteblock {
+    display: flex;
+    text-align: center;
+    margin-top: 12%;
+    padding: 15%;
+    background-color: #e5e7eb;
+    
+}
+
+.quote {
+    text-align: center;
+}
+.quotecaption {
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+    
 }
 
 button {
