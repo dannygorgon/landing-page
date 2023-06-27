@@ -34,10 +34,11 @@ h1 {
   font-family: Roboto, sans-serif;
 }
 
-h2 {
+h2, a {
   font-size: 1.125em;
   color: #e5e7eb;
   font-family: Roboto, sans-serif;
+  text-decoration: none;
 }
 
 h3 {
@@ -174,3 +175,27 @@ button {
   font-weight: 900;
   font-size: large;
 }
+
+/* animation for link hover */
+a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+/* animation for link hover */
+
+/* animation for button hover */
+button:hover {
+  background-color: #4c9ef3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #276ad2;
+  transform: scale(0.95);
+}
+/* animation for button hover */
