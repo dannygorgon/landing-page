@@ -57,10 +57,18 @@
     gap: 10px;
 }
 
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .heroheader {
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 800;
     color: #F9FAF8;
+    flex-shrink: 1;
+    word-break: keep-all;
 }
  
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
@@ -68,9 +76,9 @@
     background-color: #747474;
     display: flex;
     justify-content: center;
-    min-width: 300px;
-    min-height: 200px;
-    
+    min-width: 10%;
+    height: auto;
+    padding: 10%;
 }
 
 .heroplaceholder > h4 {
