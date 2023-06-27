@@ -135,6 +135,7 @@ h5 {
 .infoheader {
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 
 .quoteblock {
