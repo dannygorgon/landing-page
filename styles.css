@@ -67,6 +67,7 @@ h5 {
   gap: 40px;
   justify-content: center;
   align-items: center;
+  
 }
 
 .square {
@@ -148,6 +149,8 @@ h5 {
     margin-top: 7%;
     padding: 9%;
     background-color: #e5e7eb;
+    padding-left: 25%;
+    padding-right: 25%;
     
 }
 
