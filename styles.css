@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+
+
 .headernav {
   display: flex;
   flex-wrap: wrap;
@@ -25,14 +27,27 @@
   font-weight: bold;
 }
 
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #f9faf8;
+    word-break:break-word;
+    max-width: 300px;
+}
+
+h2 {
+    font-size: 1.125em;
+    color: #e5e7eb;
+}
+
 .rightlinks,
 .secondarytext {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
-  font-size: 18px;
-  color: #e5e7eb;
 }
+
+
 
 .secondarytext {
   display: flex;
@@ -58,11 +73,10 @@
 }
 
 .heroheader {
-  font-size: 3em;
-  font-weight: 800;
-  color: #f9faf8;
+ 
   flex-shrink: 1;
-  word-break: keep-all;
+  
+
 }
 
 /* placeholder courtesy of Eric Su - https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html */
@@ -84,4 +98,11 @@
 
 button {
   margin-top: 10px;
+  background-color: #3882F6;
+  padding: 1% 6%;
+  border-radius: 5px;
+  border-style: none;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: large;
 }
