@@ -3,7 +3,10 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
+
+
 
 .headernav {
     display: flex;
@@ -12,11 +15,14 @@
     gap: 15px;
     padding: 15px;
     padding-left:60px;
+    padding-right:60px;
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
 
 .logo {
     font-size: 24px;
@@ -28,21 +34,27 @@
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
-   
+    font-size: 18px;
+    color: #E5E7EB;
+    
     
 }
 
-.rightlinks {
-    
+.secondarytext {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
 }
 
 .herocontainer {
     display: flex;
-    background-color: blue;
+    flex-wrap: wrap;
+    background-color: #1F2937;
     padding: 15px;
     padding-left:60px;
+    padding-right:60px;
     justify-content: space-between;
-    
+    gap: 10px;
 }
 
 .heroheader {
@@ -56,12 +68,14 @@
     background-color: #747474;
     display: flex;
     justify-content: center;
+    min-width: 300px;
+    min-height: 200px;
     
 }
 
 .heroplaceholder > h4 {
     align-self: center;
-    
+    padding: ;
     text-align: center;
     
 }
@@ -70,5 +84,5 @@
 
 
 button {
-    
+    margin-top: 10px;
 }
