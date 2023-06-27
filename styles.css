@@ -20,13 +20,13 @@
 }
 
 .footer {
-    background-color: #1f2937;
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    font-size: small;
-    font-weight: 100;
-    font-style: normal;
-    padding: 3%;
+  background-color: #1f2937;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: small;
+  font-weight: 100;
+  font-style: normal;
+  padding: 3%;
 }
 
 .logo {
@@ -45,7 +45,8 @@ h1 {
   font-family: Roboto, sans-serif;
 }
 
-h2, a {
+h2,
+a {
   font-size: 1.125em;
   color: #e5e7eb;
   font-family: Roboto, sans-serif;
@@ -60,11 +61,11 @@ h3 {
 }
 
 h5 {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1f2937;
-    font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  font-family: Roboto, sans-serif;
 }
 
 .rightlinks,
@@ -79,7 +80,6 @@ h5 {
   gap: 40px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .square {
@@ -156,91 +156,83 @@ h5 {
 }
 
 .quoteblock {
-    display: flex;
-    text-align: center;
-    margin-top: 7%;
-    padding: 9%;
-    background-color: #e5e7eb;
-    padding-left: 25%;
-    padding-right: 25%;
-    
+  display: flex;
+  text-align: center;
+  margin-top: 7%;
+  padding: 9%;
+  background-color: #e5e7eb;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .quote {
-    text-align: center;
+  text-align: center;
 }
 .quotecaption {
-    display: flex;
-    justify-content: flex-end;
-    font-size: x-large;
-    
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-large;
 }
 
 .c2a {
-    display: flex;
-    
-    background-color: #3882f6;
-    border-radius: 10px;
-    padding: 4% 4% 4% 4%;
-    margin: 10%;
-    text-align: start;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    
+  display: flex;
+
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 4% 4% 4% 4%;
+  margin: 10%;
+  text-align: start;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .c2atext {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 95%;
-    word-wrap: normal;
-    
-    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 95%;
+  word-wrap: normal;
 }
-.toplinetext{
-    font-size: larger;
-    font-weight: 800;
-    color: #f9faf8;
-
+.toplinetext {
+  font-size: larger;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
-.bottomlinetext{
-    font-size: large;
-    color: #e5e7eb;
-
+.bottomlinetext {
+  font-size: large;
+  color: #e5e7eb;
 }
 
 .buttonbox {
-    justify-content: flex-end;
-    align-self: flex-end;
-    display: flex;
-    padding-left: 15%;
+  justify-content: flex-end;
+  align-self: flex-end;
+  display: flex;
+  padding-left: 15%;
 }
-    
+
 .button {
-    margin-top: 10px;
-    background-color: #3882f6;
-    padding: 1% 6%;
-    border-radius: 5px;
-    border-style: none;
-    color: #f9faf8;
-    font-weight: 900;
-    font-size: large;
-  }
+  margin-top: 10px;
+  background-color: #3882f6;
+  padding: 1% 6%;
+  border-radius: 5px;
+  border-style: none;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: large;
+}
 
 .button2 {
-    
-    background-color: #3882f6;
-    margin: 10px;
-    padding: 15px 50px;
-    border-radius: 5px;
-    color: #f9faf8;
-    font-weight: 900;
-    font-size: medium;
-    border: #e5e7eb solid 1px;
-  }
+  background-color: #3882f6;
+  margin: 10px;
+  padding: 15px 50px;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: medium;
+  border: #e5e7eb solid 1px;
+}
 
 /* animation for link hover */
 a {
