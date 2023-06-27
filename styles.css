@@ -23,6 +23,7 @@
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+  font-family: Roboto, sans-serif;
 }
 
 h1 {
@@ -165,16 +166,55 @@ h5 {
     
 }
 
-button {
-  margin-top: 10px;
-  background-color: #3882f6;
-  padding: 1% 6%;
-  border-radius: 5px;
-  border-style: none;
-  color: #f9faf8;
-  font-weight: 900;
-  font-size: large;
+.c2a {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 4% 4% 4% 4%;
+    margin: 10%;
+    text-align: start;
+    justify-items: center;
+    align-content: center;
+    
 }
+
+.c2atext {
+    display: flex;
+  
+    
+    
+}
+.toplinetext{
+    font-size: larger;
+    font-weight: 800;
+    color: #f9faf8;
+
+}
+
+.bottomlinetext{
+    font-size: large;
+    color: #e5e7eb;
+
+}
+
+.buttonbox {
+    justify-content: flex-end;
+    align-self: flex-end;
+    display: flex;
+}
+    
+
+.button2 {
+    
+    background-color: #3882f6;
+    
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: large;
+    border: #e5e7eb solid 1px;
+  }
 
 /* animation for link hover */
 a {
