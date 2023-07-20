@@ -77,10 +77,15 @@ h5 {
 
 .boxcontainer {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 50%; /* Adjust the max-width value as needed */
 }
+
+
 
 .square {
   justify-content: center;
@@ -257,3 +262,4 @@ button:active {
   transform: scale(0.95);
 }
 /* animation for button hover */
+
